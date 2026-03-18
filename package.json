@@ -16,12 +16,12 @@
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.6",
     "style-loader": "^4.0.0",
-    "webpack": "^5.96.1",
+    "webpack": "^5.105.4",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "npx webpack --mode production"
   }
 }
