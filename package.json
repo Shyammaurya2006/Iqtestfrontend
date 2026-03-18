@@ -22,6 +22,6 @@
   },
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "npx webpack --mode production"
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode production"
   }
 }
