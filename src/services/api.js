@@ -2,7 +2,7 @@
 // NOTE: In this setup we avoid using process.env on the client
 // to keep the bundle simple. If your backend runs elsewhere,
 // change the URL below.
-const BASE_URL = 'https://iq-test-imzl.onrender.com/api';
+const BASE_URL = 'https://iq-test-p8jm.onrender.com/api';
 
 // Helper to get auth headers
 const getAuthHeaders = () => {
